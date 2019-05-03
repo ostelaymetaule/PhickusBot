@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace PhickusBot.Console
 {
@@ -7,6 +8,14 @@ namespace PhickusBot.Console
         static void Main(string[] args)
         {
             System.Console.WriteLine("Hello World!");
+
+            var botLib = new PhickusBot.Lib.Bot();
+
+            Thread.Sleep(int.MaxValue);
+
+
+
+
         }
     }
 }
